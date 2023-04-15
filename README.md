@@ -8,3 +8,4 @@ Collaborators
 Adam Rambarran
 Kylan Baksh 
 Akash Sagar 
+Vinayak Maharaj
