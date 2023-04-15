@@ -6,3 +6,4 @@ https://adamrambarran.github.io/Brain_Box/code/index.html
 
 Collaborators 
 Adam Rambarran
+Akash Sagar
