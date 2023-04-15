@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+ <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The Brain Box</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="icon_path" type="image/icon type">
+  <link rel = "icon" href = "logo.png" type = "image/x-icon">
+</head>
+
+<body>
+ <script src="script.js"></script> 
+
+    <div class="head">
+      <h1>The Brain Box</h1>
+    </div>
+  
+  <nav class=nav1>
+        <button class = "home-button" type="button" onclick="location.href='index.html';" value="Home" > Home</button>
+
+
+    <button class= "contact-button" type="button" onclick="location.href='contact.html';" value="Contact" >Contact</button>
+    
+    <input
+      type="search"
+      id="mySearch"
+      placeholder="Search the site…">
+    <button onclick = search()> Search </button>
+
+    <span class="validity"></span>
+  </nav>
+
+ 
+  
+<div> 
+  <table class="engine">
+    <thead> 
+      <tr> 
+        <th> Model </th>
+        <th> Year  </th>
+        <th> Make  </th>
+        <th> Horse-Power </th>
+        <th> ID  </th>
+        
+        <th> Average Price  </th>
+        <th> Image </th>
+        
+      </tr>
+    </thead>
+
+    <tbody id="carResult"> 
+    </tbody>
+
+  </table>
+  
+</div>
+
+
+  
+
+    <script src="script.js"></script>
+  
+  <script> 
+  getData('https://private-anon-2344c62b66-carsapi1.apiary-mock.com/cars',drawTable_car)
+  </script>
+
+
+
+  <footer>
+ 
+<h4>The Brain Box</h4>
+    <p>
+      - For more information, please click the "contact" button above!
+    </p>
+    <p>
+      - Share your pictures and videos using the hashtag #BrainBox to be featured!
+    </p>
+  
+</footer>
+  
+  </body>
+
+  
+
+
+  
+  
+  <script src="contact.js"></script>
+
+<script src="script.js"></script>
+
+</html>
+
+</html>

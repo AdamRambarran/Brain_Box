@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The Brain Box</title>
+  <link href="contact.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="icon_path" type="image/icon type">
+  <link rel = "icon" href = "logo.png" type = "image/x-icon">
+</head>
+
+<body> 
+  <script src="script.js"></script> 
+
+  </script>
+
+   <div class="head">
+    <h1>The Brain Box</h1>
+  </div>
+  <nav class=nav1>
+       <button class = "home-button" type="button" onclick="location.href='index.html';" value="Home" > Home</button>
+
+
+    <button class= "contact-button" type="button" onclick="location.href='contact.html';" value="Contact" >Contact</button>
+    <input
+    <input
+      type="search"
+      id="mySearch"
+      name="q"
+      placeholder="Search the site…"
+      required />
+    <button>Search</button>
+    <span class="validity"></span>
+  </nav>
+
+<div class="whatsapp">
+  
+  <img src="whatsapp.png" width=50px class="con" style="float:left">
+  <p style="color:  #E2B842">+1 (868) 467-7901     OR     +1 (868) 790-5940</p>
+  <p>Opening Hours: 8am - 5pm weekly.</p>
+  
+</div>
+
+<div class="instagram">
+  
+  <img src="instagram.png" width=50px style="float:left">
+  <p style="color: #E2B842">@TheBrainBox.com</p>
+  <p>Dont forget to tag us in your posts to be featured!</p>
+  
+</div>
+
+<div class="gmail">
+  
+  <img src="gmail.png" width=70px style="float:left">
+  <p style="color: #E2B842">TheBrainBox.gmail.com</p>
+  <p>Get a response within 1-3 business days.</p>
+    
+</div>
+  <div class="form">
+    
+
+  <h1>Contact form</h1>
+      <form name="myForm" action="/file.php" onsubmit="return validateForm()" method="post">
+         <table class="form-style">
+            <tr>
+               <td>
+                  <label>
+                     Your name <span class="required">*</span>
+                  </label>
+               </td>
+               <td>
+                  <input type="text" name="name" class="long"/>
+                  <span class="error" id="errorname"></span>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>
+                    Your email address <span class="required">*</span>
+                  </label>
+               </td>
+               <td>
+                  <input type="email" name="email" class="long"/>
+                  <span class="error" id="erroremail"></span>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>
+                     Message <span class="required">*</span>
+                  </label>
+               </td>
+               <td>
+                  <textarea name="message" class="long field-textarea"></textarea>
+                  <span class="error" id="errormsg"></span>
+               </td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>
+                  <input type="submit" value="Send" onclick="location.href='index.html';">      
+                  <input type="reset" value="Reset" onclick="location.href='contact.html';"> 
+               </td>
+            </tr>
+         </table>
+      </form>
+</div>
+
+    
+  
+
+
+
+
+  
+</body>
+<footer>
+ 
+ <h4>The Brain Box</h4>
+    <p>
+      - For more information, please click the "contact" button above!
+    </p>
+    <p>
+      - Share your pictures and videos using the hashtag #BrainBox to be featured!
+    </p>
+  
+</footer>
+
+
+  
+  
+  <script src="contact.js"></script>
+
+
+</html>

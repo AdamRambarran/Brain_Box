@@ -1,0 +1,367 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-image: url(stars.jpg) ;
+  background-size: 150%;
+  background-size: cover;
+  background-size: 40cm;
+}
+
+
+.head{
+  background-color: #012B39;
+  text-align: center;
+  color: #E2B842;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  font-family: monospace;
+  font-size: 20px;
+}
+.nav1{
+  background-color:  #012B39; 
+  padding-left:30px;
+  border-radius: 20px;
+  margin-top:5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+footer{
+  margin-top: 10px;
+  background-color: #012B39 ;
+  color: #E2B842;
+  padding-left: 30px;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.contact-button{
+    border: none;
+    border-radius: 15px;
+    padding-left: 16px;
+    padding-top: 5px;
+    padding-right: 16px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: opacity 0.20s;
+    margin-right: 8px;
+    vertical-align: top;
+    font-weight: bold;
+    
+}
+
+.contact-button:hover{
+    opacity: 80%;
+   background-color: #105469 ;
+  color:white;
+}
+ 
+ 
+.home-button{
+    border: none;
+    border-radius: 15px;
+    padding-left: 16px;
+    padding-top: 5px;
+    padding-right: 16px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.20s;
+    vertical-align: top;
+    font-weight: bold;
+    
+}
+ .home-button:hover{
+    opacity:80%;
+    background-color: #105469 ;
+   color:white;
+        }
+
+.search-button{
+    border: none;
+    border-radius: 15px;
+    padding-left: 16px;
+    padding-top: 5px;
+    padding-right: 16px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.20s;
+    vertical-align: top;
+    font-weight: bold;
+    
+}
+ .search-button:hover{
+    background-color: #105469 ;
+   color:white;
+        }
+
+ 
+
+.car-button{
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.20s;
+    vertical-align: top;
+    font-weight: bold;
+    
+}
+ .car-button:hover{
+      
+   color:white;
+   
+        }
+ .car-button:active{
+           
+      }
+
+.engine-button{
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-top: 5px;
+    padding-right: 16px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.20s;
+    vertical-align: top;
+    font-weight: bold;
+    
+}
+ .engine-button:hover{
+  
+        }
+ .engine-button:active{
+   
+      }
+
+
+div{
+  color: white; 
+  
+}
+
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image:url(stars.jpg);
+  background-size: 150%;
+  font-family: 'Open Sans', sans-serif;
+}
+table {
+  background: #012B39;
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin: 1em;
+}
+th {
+  border-bottom: 1px solid #364043;
+  color: #E2B842;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: left;
+  font-family: monospace;
+}
+td {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0.65em 1em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.disabled td {
+  color: #4F5F64;
+}
+tbody tr {
+  transition: background 0.25s ease;
+}
+tbody tr:hover {
+  background: #014055;
+}
+
+
+.but{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+input{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.filter1{
+  background-image: url('car1.jpg');
+  color: white;
+  background-size: 100%;
+  background-position-y: -60%;
+  margin-top: 10px;
+  border-radius: 20px;
+  margin-left: 160px ;
+  margin-right: 160px ;
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-bottom: 30px;
+  box-shadow: 0 1px 2px white;
+  transition: box-shadow 0.3s ease-in-out;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.filter1:hover {
+  box-shadow: 0 5px 15px white;
+}
+
+.filter2{
+  background-image: url('HomeEngine.jpg');
+  color: white;
+  background-size: 100%;
+  background-position-y: -60%;
+  margin-top: 10px;
+  border-radius: 20px;
+  margin-left: 160px ;
+  margin-right: 160px ;
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-bottom: 30px;
+  box-shadow: 0 1px 2px white;
+  transition: box-shadow 0.3s ease-in-out;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter2:hover {
+  box-shadow: 0 5px 15px white;
+}
+
+.type{
+     border: none;
+    border-radius: 15px;
+    padding-left: 16px;
+    padding-top: 5px;
+    padding-right: 16px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: opacity 0.20s;
+    vertical-align: top;
+    font-weight: bold;
+    
+}
+ .type:hover{
+    opacity:80%;
+    background-color: #105469 ;
+   color:white;
+        }
+
+
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}

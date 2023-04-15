@@ -1,0 +1,278 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-image: url(stars.jpg) ;
+  background-size: cover;
+  background-size: 40cm;
+}
+
+
+.head{
+  background-color: #012B39;
+  text-align: center;
+  color: #E2B842;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+  
+}
+.nav1{
+  background-color:  #012B39; 
+  padding-left:30px;
+  border-radius: 20px;
+  margin-top:5px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  margin-top:10px;
+  background-color: #012B39 ;
+  color: #E2B842;
+  padding-left: 30px;
+  border-radius: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.contact-button{
+    border: none;
+    border-radius: 15px;
+    padding-left: 16px;
+    padding-top: 5px;
+    padding-right: 16px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out, opacity 0.20s;
+    margin-right: 8px;
+    vertical-align: top;
+    font-weight: bold;
+    
+}
+
+.contact-button:hover{
+    opacity: 80%;
+  background-color: #105469 ;
+  color:white;
+}
+.home-button{
+    border: none;
+    border-radius: 15px;
+    padding-left: 16px;
+    padding-top: 5px;
+    padding-right: 16px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: box-shadow 0.3s ease-in-out;
+    vertical-align: top;
+    font-weight: bold;
+    
+}
+ .home-button:hover{
+    opacity:80%;
+   background-color: #105469 ;
+   color:white;
+        }
+
+div{
+  color: white; 
+  
+}
+
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(stars.jpg) ;
+  background-size: 150%;
+  font-family: 'Open Sans', sans-serif;
+}
+table {
+  background: #012B39;
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin: 1em;
+}
+th {
+  border-bottom: 1px solid #364043;
+  color: #E2B842;
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+td {
+  color: #fff;
+  font-weight: 400;
+  padding: 0.65em 1em;
+}
+.disabled td {
+  color: #4F5F64;
+}
+tbody tr {
+  transition: background 0.25s ease;
+}
+tbody tr:hover {
+  background: #014055;
+}
+
+
+button{
+  color: black; 
+}
+
+input{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.whatsapp{
+  background-color: #012B39 ;
+  margin-top: 10px;
+  border-radius: 20px;
+  margin-left: 160px ;
+  margin-right: 160px ;
+  padding-top: 50px;
+  padding-left: 60px;
+  padding-bottom: 50px;
+  box-shadow: 0 1px 2px white;
+  transition: box-shadow 0.3s ease-in-out;
+}
+.instagram{
+  background-color: #012B39 ;
+  margin-top: 15px;
+  border-radius: 20px;
+  margin-left: 160px ;
+  margin-right: 160px ;
+  padding-top: 50px;
+  padding-left: 60px;
+  padding-bottom: 50px;
+  box-shadow: 0 1px 2px white;
+  transition: box-shadow 0.3s ease-in-out;
+  
+}
+.gmail{
+  background-color: #012B39 ;
+  margin-top: 15px;
+  border-radius: 20px;
+  margin-left: 160px ;
+  margin-right: 160px ;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  box-shadow: 0 1px 2px white;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+p{
+  text-align: center;
+  font-style: bold;
+}
+
+.whatsapp:hover {
+  box-shadow: 0 5px 15px white;
+}
+
+.instagram:hover {
+  box-shadow: 0 5px 15px white;
+}
+
+.gmail:hover {
+  box-shadow: 0 5px 15px white;
+}
+
+.form:hover {
+  box-shadow: 0 5px 15px white;
+}
+
+
+h1{
+  text-align: center;
+}
+.form-style {
+  margin:10px auto;
+  width: 400px;
+  padding: 20px 12px 10px 20px;
+  font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style td {
+  padding: 0;
+  display: block;
+  list-style: none;
+  margin: 10px 0 0 0;
+}
+.form-style label{
+  margin:0 0 3px 0;
+  padding:0px;
+  display:block;
+  font-weight: bold;
+}
+.form-style .required{
+  color:red;
+}
+.form-style input[type=submit], .form-style input[type=reset]{
+  background: #4eb5f1;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  color: #fff;
+}
+.form-style input[type=submit]:hover, .form-style input[type=reset]:hover{
+  background: #4eb5f1;
+  box-shadow:none;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+}
+.form-style .field-textarea{
+  height: 100px;
+}
+.form-style input[type=text], 
+.form-style input[type=email],
+textarea{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border:1px solid #BEBEBE;
+  padding: 7px;
+  margin:0px;
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;  
+}
+.form-style .long{
+  width: 100%;
+}
+.form-style input[type=text]:focus, 
+.form-style input[type=email]:focus,
+.form-style textarea:focus{
+  -moz-box-shadow: 0 0 8px #88D5E9;
+  -webkit-box-shadow: 0 0 8px #88D5E9;
+  box-shadow: 0 0 8px #88D5E9;
+  border: 1px solid #88D5E9;
+}
+.error{
+  color: #D8000C;
+  background-color: #FFBABA;
+}
+
+.form{
+    background-color: #012B39 ;
+  margin-top: 10px;
+  border-radius: 20px;
+  margin-left: 160px ;
+  margin-right: 160px ;
+  padding-top: 50px;
+  padding-left: 60px;
+  padding-bottom: 50px;
+  box-shadow: 0 1px 2px white;
+  transition: box-shadow 0.3s ease-in-out;
+}
