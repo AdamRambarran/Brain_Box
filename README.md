@@ -1,6 +1,6 @@
 # Brain_Box
 
-Url for Website
+Url for Deployed Application
 
 https://adamrambarran.github.io/Brain_Box/code/index.html
 
